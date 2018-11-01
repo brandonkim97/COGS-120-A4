@@ -1,0 +1,66 @@
+body {
+    position: relative;
+    height: 90%;
+    width: 70%;
+    max-width: 500px;;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+.delete-button {
+    position: relative;
+    float: right;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 10px;
+    color: inherit;
+}
+
+.add-button:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-recipes {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-recipes:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container a {
+    padding: 5px;
+}
+
+.add-search {
+    width: 100%;
+    margin: 20px auto;
+    resize: none;
+    font-size: 20px;
+}
+
+.add-search:focus {
+    outline: none;
+}
+
+.back-button {
+    position: absolute;
+    bottom: 10px;
+}
+
+.add-item-button {
+    padding: 5px 20px 5px 20px;
+    float: right;
+}
+
+.recipe-title {
+    margin: 0 auto;
+}
