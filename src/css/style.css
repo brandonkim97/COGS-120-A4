@@ -73,3 +73,51 @@ hr {
     text-align: center;
     font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.ingredient {
+    width: 100%;
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.quantity {
+    position: absolute;
+    height: 30px;
+    width: 70px;
+    resize: none;
+    margin-top: -60px;
+    left: 50%;
+}
+
+.delete-single {
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    margin-top: -60px;
+    float: right;
+}
+
+.items-list {
+
+}
+
+.item-select {
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    margin-top: -60px;
+    float: right;
+}
+
+.recipe-item {
+    width: 95%;
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.recipe-button {
+    padding: 10px;
+    float: right;
+}

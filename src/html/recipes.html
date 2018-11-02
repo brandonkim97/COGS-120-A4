@@ -5,9 +5,14 @@
     <body>
     <h1 class="recipe-title">Possible Recipes</h1>
     <form class="search-recipe-form">
-        <textarea class="search-box"></textarea>
-        <button type="submit" class="add-item-button">Add</button>
+        <textarea class="search-box" placeholder="Search recipes..."></textarea>
     </form>
+    <div class="recipe-list">
+        <div class="recipe-item">
+            <a>item #1</a>
+            <button class="recipe-button" onclick="location.href='singleRecipe.html'">Select</button>
+        </div>
+    </div>
 
     <form>
         <input type="button" class="back-button" value="Back" onClick="history.back()">
